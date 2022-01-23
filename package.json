@@ -1,0 +1,33 @@
+{
+  "name": "simple_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessBonanno/simple_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessBonanno/simple_api/issues"
+  },
+  "homepage": "https://github.com/JessBonanno/simple_api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "node": "^17.3.1",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.13.0"
+  },
+  "devDependencies": {
+    "dotenv": "^14.2.0",
+    "mysql2": "^2.3.3"
+  }
+}
